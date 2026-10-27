@@ -1,0 +1,32 @@
+# ---- data (never commit; see README section 1) ----
+data/
+*.h5ad
+*.h5
+*.npz
+*.parquet
+*.gtf
+*.gtf.gz
+*.tsv.gz
+
+# ---- generated outputs ----
+results/
+analysis/
+*.py.bak
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- large figure rasters (regenerable from 64_/65_ scripts) ----
+*.png
+!docs/**/*.png
