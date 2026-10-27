@@ -1,0 +1,8 @@
+# Normalise line endings: the analysis runs on Windows, but the code is
+# plain Python and should be readable/diffable on any platform.
+* text=auto eol=lf
+
+*.png binary
+*.pdf binary
+*.h5ad binary
+*.npz binary
